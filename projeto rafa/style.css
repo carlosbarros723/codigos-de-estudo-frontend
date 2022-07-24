@@ -1,0 +1,129 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+:root{
+    ---fonte_principal: 'Sarala', sans-serif;
+    ---fonte_secundaria:  'Righteous', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    font-family: var(---fonte_principal);
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF2E7;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+header img{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 150px;
+    margin-right: 350px;
+}
+
+header nav{
+    margin-top: 32px;
+    
+    
+}
+
+.menu_cabeçalho{
+
+    margin-left: 40px;
+    text-decoration: none;
+    color: #FFF2E7;   
+}
+
+main{
+    background-image: url(imagens/Group\ 4.png);
+    background-repeat: no-repeat;
+    background-position: 850px 1px;
+    background-size: 300px;
+}
+
+
+
+.titulo_principal{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: var(---fonte_secundaria);
+    font-weight: 400;
+    font-size: 64px;
+
+}
+
+.texto_principal{
+    font-size: 24px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+button{
+    cursor: pointer;
+    display: block;
+    color: #2F2325;
+    background-color:  #ECD6C4;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-weight: 400;
+    padding: 13px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+
+
+.linha_central{
+    width: 276px;
+    margin: 127px auto 0;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.texto{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.linha_roda_pe{
+    margin-top: 50px;
+    
+}
+
+
+footer{
+    text-align: center;
+    padding: 60px;
+}
