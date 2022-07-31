@@ -1,0 +1,141 @@
+/* fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+
+:root{
+    ---font : 'Poppins', sans-serif;
+}
+
+
+*{ 
+     padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: rgb(34, 34, 34);;
+    font-family: var(---font) ;
+    color: white;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 50px;
+
+}
+
+.titulo_principal{
+    
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+.menu_links{
+    margin-right: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.menu_links:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+
+}
+
+#menu_links_ja_tem_conta{
+    font-weight: 400;
+    border: 2px solid rgb(132, 14, 201);;
+    border-radius: 15px;
+    padding: 5px 25px;
+    transition: 0.4s all;
+}
+
+#menu_links_ja_tem_conta:hover{
+    color: white;
+    background-color: rgb(132, 14, 201); ;
+}
+
+main{
+
+    background-image: url(imag/77d0a7c454e658833800528e748edbe9.png);
+    background-size: 580px;
+    background-repeat: no-repeat;
+    background-position: 600px center;
+    
+    
+}
+
+.conteudo{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.conteudo_principal{
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+
+.conteudo_titulo{
+    width: 50%;
+    margin-top: 30px;
+    font-size: 56px;
+    font-family: var(---font);
+    font-weight: 600;
+    
+}
+
+.conteudo_titulo span{
+    color:rgb(132, 14, 201) ;
+}
+
+.conteudo_paragrafo{
+    width: 40%;
+    margin-top: 30px;
+    font-size: 16pt;
+    text-align: justify;
+}
+
+.conteudo_formulario{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+    
+}
+
+.conteudo_formulario input{
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.conteudo_formulario [placeholder] {
+    padding: 18px;
+}
+
+.conteudo_formulario [type="submit"]{
+    width:  50%;
+    background-color:  rgb(132, 14, 201) ;
+    padding: 12px;
+    color: white;
+    font-family: var(---font);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
